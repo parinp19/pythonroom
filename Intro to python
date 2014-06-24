@@ -1,6 +1,13 @@
 # author: parinp19
 
-x = int(input("Type a number: "))
-p = int(input("Type a number: "))
+import turtle
+t = turtle.Turtle()
 
-print x-p
+t.forward(100)
+t.left(90
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
