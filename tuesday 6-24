@@ -1,6 +1,0 @@
-x = int(input("Type a number: "))
-r = int(input("Type a number: "))
-for number in range(x,r + 1):
-	print number
-if x>y:
-	print "it is not possible"
