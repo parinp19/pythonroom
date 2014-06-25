@@ -1,0 +1,12 @@
+"""
+word = "hack read"
+print word[0]
+print word[1]
+print word[2]
+
+print len(input("Type a word: ") 
+
+word = input("Type a word: ")
+for i in range (0,len(word)):
+	print word [i]
+"""
