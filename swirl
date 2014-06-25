@@ -1,0 +1,14 @@
+import turtle
+t = turtle.Turtle()
+
+t.speed(0)
+
+numbers = range(10, 1000)
+colors = ["red", "green", "blue", "orange", "pink"]
+		  
+for number in numbers:
+	for color in colors:
+		t.color(color)
+		t.forward(number)
+		t.left(90)
+	t.right(8)
