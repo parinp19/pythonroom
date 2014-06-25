@@ -1,4 +1,25 @@
-int grade = ???
+grade = int(input("type a number: "))
 
-# print if
+if grade >= 93:
+	print "A"
+elif grade >= 80 and grade < 93:
+	print "B"
+elif grade >= 75 and grade < 80:
+	print "C"
+elif grade >= 65 and grade < 75:
+	print "D"
+elif grade >= 0 and grade < 65:
+	print "F"
+
+
+# print if the student eraned an A, B, C, D, or F
+# > greater than
+# < less than
+# >= greater than or equal to
+# <= less than or equal to
+# 93+ is A
+# 80-93 is B
+# 75-80 is C
+# 65-75 is D
+# 0-65 is F
 
