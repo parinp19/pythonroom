@@ -1,1 +1,18 @@
+import turtle
+parin = turtle.Turtle()
+parin.speed(0)
 
+sides = 5
+angle = 360.0/sides
+distance = 100
+time = 500
+heading = 90
+
+for i in xrange (time):
+	# for side in xrange (sides):
+	for color in ["pink", "light brown", "blue", "brown", "blue", "pink", "light brown", "blue"]:
+		parin.forward(i)
+		parin.left(angle)
+		parin.color(color)
+parin.setheading(i*100
+parin.forward(3)
