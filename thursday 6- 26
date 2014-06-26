@@ -13,3 +13,12 @@ if o == "+":
 	
 if o == "/":
 	print "d / w ="
+	
+	"""
+	num = int(raw_input("enter a positive interger: "))
+sum = 0
+for i in range(1,num):
+	sum += i
+	print i, "+"
+print num, "=", sum + num
+"""
