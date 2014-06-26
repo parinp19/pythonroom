@@ -2,7 +2,7 @@ import turtle
 parin = turtle.Turtle()
 parin.speed(0)
 
-sides = -18
+sides = 5
 angle = 360.0/sides
 distance = 100
 time = 500
