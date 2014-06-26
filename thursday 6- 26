@@ -1,0 +1,15 @@
+d = input("Type a number: ")
+w = input("Type a number: ")
+o = input("ask for operation(+, -, *, /,): ")
+
+if o == "*":
+	print "d * w ="
+	
+if o == "-":
+	print "d - w ="
+
+if o == "+":
+	print "d + w ="
+	
+if o == "/":
+	print "d / w ="
