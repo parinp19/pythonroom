@@ -1,6 +1,6 @@
 import turtle
 parin = turtle.Turtle()
-parin.speed(0)
+parin.speed(250)
 
 sides = 5
 angle = 360.0/sides
