@@ -1,1 +1,33 @@
-import random 
+a = int(input('Type a number percentage(no percent sign)'))
+if a >= 95 and a <= 97:
+	print 'A'
+elif a >= 98 and a <= 100:
+	print 'A+'
+elif a >= 90 and a <= 94:
+	print 'A-'		
+elif a >= 84 and a <= 87:
+	print 'B'
+elif a >= 88 and a <= 89:
+	print 'B+'
+elif a >= 80 and a <= 83:
+	print 'B-'			
+elif a >= 66 and a <= 71:
+	print 'C'
+elif a >= 72 and a <= 79:
+	print 'C+'
+elif a >= 60 and a <= 65:
+	print 'C-'			
+elif a >= 45 and a <= 51:
+	print 'D'
+elif a >= 52 and a <= 59:
+	print 'D+'
+elif a >= 40 and a <= 44:
+	print 'D-'		
+elif a >= 11 and a <= 25:
+	print 'F'
+elif a >= 26 and a <= 39:
+	print 'F+'
+elif a >= 0 and a <= 10:
+	print 'F-'
+elif a >= 100:
+	print'invalid'
