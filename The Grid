@@ -1,0 +1,10 @@
+import turtle
+t = turtle.Turtle()
+t.setpos(-200,200)
+def bob():
+	for i in range(1000):
+		i=i+10
+		t.forward(i)
+		t.left(90)
+		
+bob() 
